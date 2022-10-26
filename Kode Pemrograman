@@ -1,0 +1,14 @@
+# Gunakan operasi perhitungan fisika matematika untuk menghitung jarak fokus lensa (f) dalam cm pada persamaan pembuat lensa 1/f = (n-1)[1/R1+1/R2] 
+# dengan n adalah indeks bias medium = 1,50 dan R1 dan R2 adalah jejari kelengkungan permukaan masing-masing 20 cm dan 18 cm.
+'''Rumus Fokus Lensa
+    1/f = (n-1)[1/R1 + 1/R2]
+'''
+n  = 1.5    #Indeks Bias
+R1 = 20     #Jari-jari kelengkungan, satuan cm
+R2 = 18
+
+F = (n-1)*((1/R1)+(1/R2))
+F = 1/F
+
+print("-"*40)
+print("Jarak Fokus Lensa = ",F)
