@@ -1,0 +1,1 @@
+# Menentukan-Fokus-Lensa-dengan-Metode-Numerik
